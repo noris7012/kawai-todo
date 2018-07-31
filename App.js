@@ -41,7 +41,7 @@ export default class App extends React.Component {
         <View style={styles.card}>
           <TextInput
             style={styles.input}
-            placeholder={"New To Do"}
+            placeholder={"New To Do Test"}
             underlineColorAndroid="transparent"
             value={newToDo}
             onChangeText={this._controllNewToDo}
